@@ -1,0 +1,935 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29D3676E6CAE0945AF6751F54E176753 /* Pods-TvRemote_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0118F2D3F4C41013AAE91C6F1EAB25AA /* Pods-TvRemote_Tests-dummy.m */; };
+		2DAA98C8614A6DED26CE8712531AE1FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */; };
+		35B60870064DAC91F9F2EDE547FB96B7 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BA6F6CCD385509DC9FF3B1ACE3E309 /* CocoaAsyncSocket.framework */; };
+		55900B7B2116B6FC270F6FAD164EA775 /* TvRemote-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C67D7EE9713E444418FED1A61077958 /* TvRemote-dummy.m */; };
+		5B0B6040E111E641D99B20280633C595 /* RemoteSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FC440B600715E042B794642CCA2171 /* RemoteSender.m */; };
+		7979A443380107F4F56AADAA9526D17B /* RemoteSender.h in Headers */ = {isa = PBXBuildFile; fileRef = C47EB90593436DBCC92FCF38FE6FC3B0 /* RemoteSender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA669EA9DB68616A6ECA64CA78D52EAC /* CocoaAsyncSocket-dummy.m */; };
+		8480493AEC1C7AF1B5C0E0BF2F70FB44 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9509718CFCC3D81230AA7CF02478B7 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9CCF64732D08D9E45FB6EC9A72F79A89 /* TvRemote-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E769D5884282B5331195A5058CB74A8C /* TvRemote-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4E4253CB95AEF3D5A166D15F10E0ECA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */; };
+		A882891E5A89CADF96C2CA79606409CA /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = D82B81E88C7D98976B018DB4903B5D0C /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC7DC2A21843CD99040DCD79FF3BE91B /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 30CCCF41576100268BFA48C3EED9517C /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEE9644DA0EFCF945438E125BA4F0724 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9235AEFD042C8D96AF4B4AA61E18C420 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B688B80E8B12B7F6988B29DC592DA94D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A7E85CD06FB5B7EAC4FAD953117F2D2 /* Security.framework */; };
+		C62832D7C9AD6AADD83C49DC89A50277 /* Pods-TvRemote_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3363554F90FAA3D37490672B774ECC15 /* Pods-TvRemote_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDABA09DFE2F751F5E63E8C39EF35B87 /* Pods-TvRemote_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F69D742B8333719364BC79BBFB719BC /* Pods-TvRemote_Example-dummy.m */; };
+		D01B2EBC1AB52980422F5A831BBCE3F4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18CCAEB371EC97E5B9FA432AB0D5F33 /* CFNetwork.framework */; };
+		E4230DB0D114C94B081018C1AC1E9972 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8A7C0B72CB1BFEC20A42E9E5B3E1A5D /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE7F5E42D8460557C20FC2BF77EE3A57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */; };
+		F1D84E09628C89793E6874C5F0BFD70C /* Pods-TvRemote_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9815AA87276E87C70CEF81A42B7C069 /* Pods-TvRemote_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F459628F1D7DD0A979212F0F9F322C1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A5073A109DE6EB2DC8124D6F54C0EF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0D2D2B4EE7C873431AB3502859CA60;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		4E1511E73B541494A59F0ED96F97619E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0D2D2B4EE7C873431AB3502859CA60;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		EA1AF8B7C0DC53D76AEE17E0E87DB3FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30C37B5D90BABB4CBEB143AB61EC4AA9;
+			remoteInfo = TvRemote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0118F2D3F4C41013AAE91C6F1EAB25AA /* Pods-TvRemote_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TvRemote_Tests-dummy.m"; sourceTree = "<group>"; };
+		024FAD3A9561D2F4CB106D15D9557461 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2654047E1664EF89525922D2823C8C63 /* TvRemote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TvRemote.framework; path = TvRemote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		281648634F097AF104B214F30D0FBC1B /* Pods-TvRemote_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TvRemote_Tests-resources.sh"; sourceTree = "<group>"; };
+		3028C6DAA352316EA97B7C6D8D66035B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30CCCF41576100268BFA48C3EED9517C /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		315400CF8215AD889A138E3AD731BAAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32ACE62BF48591B1C18CB5F100DA088D /* Pods-TvRemote_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TvRemote_Example.modulemap"; sourceTree = "<group>"; };
+		3363554F90FAA3D37490672B774ECC15 /* Pods-TvRemote_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TvRemote_Example-umbrella.h"; sourceTree = "<group>"; };
+		4248F3E76CCDD67C7E7C8C4154E5E2D8 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B6F2B5D8B8423C667F3D4B26A2718A /* Pods-TvRemote_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TvRemote_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		53FC440B600715E042B794642CCA2171 /* RemoteSender.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RemoteSender.m; sourceTree = "<group>"; };
+		56387DA55BBF9D5729BB7A1C311C2894 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		5A7E85CD06FB5B7EAC4FAD953117F2D2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		5DF504EBE1C517795072AE13AAAA7380 /* Pods_TvRemote_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TvRemote_Tests.framework; path = "Pods-TvRemote_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		601E37EDFF15F9E763332F8ED114AF13 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		60679B50900968A90CF7B5DE5813F794 /* Pods-TvRemote_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TvRemote_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6510DDC5057C8A96D6A81BD8B5C7F8B0 /* Pods_TvRemote_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TvRemote_Example.framework; path = "Pods-TvRemote_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F69D742B8333719364BC79BBFB719BC /* Pods-TvRemote_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TvRemote_Example-dummy.m"; sourceTree = "<group>"; };
+		786CF589F4EC362D575074A58BD90CC0 /* Pods-TvRemote_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TvRemote_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8F9509718CFCC3D81230AA7CF02478B7 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		902079056634F5B72C2BF78E287D80BD /* Pods-TvRemote_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TvRemote_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		91BA6F6CCD385509DC9FF3B1ACE3E309 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9235AEFD042C8D96AF4B4AA61E18C420 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93EF360D034B9EE8A7268FA05CA4AA91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C67D7EE9713E444418FED1A61077958 /* TvRemote-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TvRemote-dummy.m"; sourceTree = "<group>"; };
+		9DDE9E14EBA645F4F6694D796C19DEB5 /* Pods-TvRemote_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TvRemote_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9E498C269637C4B3C0B1E38C3815DDF2 /* TvRemote.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TvRemote.xcconfig; sourceTree = "<group>"; };
+		A8A7C0B72CB1BFEC20A42E9E5B3E1A5D /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		A90594C293590AA6EA54C9775167DE9B /* Pods-TvRemote_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TvRemote_Example-resources.sh"; sourceTree = "<group>"; };
+		AEE3A3E21C4B978FE0BCEB9613DABBF6 /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
+		B681878222CAE5F9097929E1D62083BD /* Pods-TvRemote_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TvRemote_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC1B0DDB829F49068B0C9395FF7611D6 /* Pods-TvRemote_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TvRemote_Tests.modulemap"; sourceTree = "<group>"; };
+		C47EB90593436DBCC92FCF38FE6FC3B0 /* RemoteSender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RemoteSender.h; sourceTree = "<group>"; };
+		C639272F223432B6B885E259D427AA7D /* TvRemote.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TvRemote.modulemap; sourceTree = "<group>"; };
+		CD814660E022326D52EADCE6B8A43631 /* Pods-TvRemote_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TvRemote_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D677EC65F43B12D7C834A9981F36CABB /* Pods-TvRemote_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TvRemote_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D82B81E88C7D98976B018DB4903B5D0C /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		D9815AA87276E87C70CEF81A42B7C069 /* Pods-TvRemote_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TvRemote_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E769D5884282B5331195A5058CB74A8C /* TvRemote-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TvRemote-umbrella.h"; sourceTree = "<group>"; };
+		ECAA12F521D8D534C0C0ED6D0B09EB15 /* Pods-TvRemote_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TvRemote_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EF3AE28FF0A98910703AE0C669DF1A37 /* TvRemote-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TvRemote-prefix.pch"; sourceTree = "<group>"; };
+		F07B5AD461A5CBAC30BBC5007A460D4C /* Pods-TvRemote_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TvRemote_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F18CCAEB371EC97E5B9FA432AB0D5F33 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		FA669EA9DB68616A6ECA64CA78D52EAC /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06DEC3E163C2AEDAF9DCA97757860999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7F5E42D8460557C20FC2BF77EE3A57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CAB61837EEFF8D6EB561B896AF609D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B60870064DAC91F9F2EDE547FB96B7 /* CocoaAsyncSocket.framework in Frameworks */,
+				A4E4253CB95AEF3D5A166D15F10E0ECA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C2C126168B038B9B15BF2A4C96FDDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01B2EBC1AB52980422F5A831BBCE3F4 /* CFNetwork.framework in Frameworks */,
+				2DAA98C8614A6DED26CE8712531AE1FC /* Foundation.framework in Frameworks */,
+				B688B80E8B12B7F6988B29DC592DA94D /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F5E7EAA918C324ECDBC0FB7DEBC0C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F459628F1D7DD0A979212F0F9F322C1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21EF92700B24CEEE26E039CD979FBE01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4248F3E76CCDD67C7E7C8C4154E5E2D8 /* CocoaAsyncSocket.framework */,
+				6510DDC5057C8A96D6A81BD8B5C7F8B0 /* Pods_TvRemote_Example.framework */,
+				5DF504EBE1C517795072AE13AAAA7380 /* Pods_TvRemote_Tests.framework */,
+				2654047E1664EF89525922D2823C8C63 /* TvRemote.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B933D4B764323E14C9F306E59BA9E9E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F18CCAEB371EC97E5B9FA432AB0D5F33 /* CFNetwork.framework */,
+				18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */,
+				5A7E85CD06FB5B7EAC4FAD953117F2D2 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		33EC2DA33E70CE483D15F0C2EEE27AFC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F664F7E3D24E5B61D5A56F61BF623172 /* TvRemote */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		52F09756DBF9E96327DFB8762344E266 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C47EB90593436DBCC92FCF38FE6FC3B0 /* RemoteSender.h */,
+				53FC440B600715E042B794642CCA2171 /* RemoteSender.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		57B648335473190C3B0747F8DB761F76 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				56387DA55BBF9D5729BB7A1C311C2894 /* CocoaAsyncSocket.modulemap */,
+				AEE3A3E21C4B978FE0BCEB9613DABBF6 /* CocoaAsyncSocket.xcconfig */,
+				FA669EA9DB68616A6ECA64CA78D52EAC /* CocoaAsyncSocket-dummy.m */,
+				601E37EDFF15F9E763332F8ED114AF13 /* CocoaAsyncSocket-prefix.pch */,
+				A8A7C0B72CB1BFEC20A42E9E5B3E1A5D /* CocoaAsyncSocket-umbrella.h */,
+				024FAD3A9561D2F4CB106D15D9557461 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+		5B0F79CE6EB47BC4EB94F1A7F5DE6310 /* Pods-TvRemote_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				315400CF8215AD889A138E3AD731BAAA /* Info.plist */,
+				BC1B0DDB829F49068B0C9395FF7611D6 /* Pods-TvRemote_Tests.modulemap */,
+				ECAA12F521D8D534C0C0ED6D0B09EB15 /* Pods-TvRemote_Tests-acknowledgements.markdown */,
+				902079056634F5B72C2BF78E287D80BD /* Pods-TvRemote_Tests-acknowledgements.plist */,
+				0118F2D3F4C41013AAE91C6F1EAB25AA /* Pods-TvRemote_Tests-dummy.m */,
+				9DDE9E14EBA645F4F6694D796C19DEB5 /* Pods-TvRemote_Tests-frameworks.sh */,
+				281648634F097AF104B214F30D0FBC1B /* Pods-TvRemote_Tests-resources.sh */,
+				D9815AA87276E87C70CEF81A42B7C069 /* Pods-TvRemote_Tests-umbrella.h */,
+				B681878222CAE5F9097929E1D62083BD /* Pods-TvRemote_Tests.debug.xcconfig */,
+				F07B5AD461A5CBAC30BBC5007A460D4C /* Pods-TvRemote_Tests.release.xcconfig */,
+			);
+			name = "Pods-TvRemote_Tests";
+			path = "Target Support Files/Pods-TvRemote_Tests";
+			sourceTree = "<group>";
+		};
+		69071D647AD6B436F01F03BAE91197B2 /* TvRemote */ = {
+			isa = PBXGroup;
+			children = (
+				52F09756DBF9E96327DFB8762344E266 /* Classes */,
+			);
+			name = TvRemote;
+			path = TvRemote;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				33EC2DA33E70CE483D15F0C2EEE27AFC /* Development Pods */,
+				E57D8BB42B7367E2EA1AB4BAF61E5D44 /* Frameworks */,
+				991819176034B11A99ECC53C250D06AD /* Pods */,
+				21EF92700B24CEEE26E039CD979FBE01 /* Products */,
+				E57FC12AF258EA96DCFCBCECEFCBC3FE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86A051A09A3C40E9D42D604899288B54 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93EF360D034B9EE8A7268FA05CA4AA91 /* Info.plist */,
+				C639272F223432B6B885E259D427AA7D /* TvRemote.modulemap */,
+				9E498C269637C4B3C0B1E38C3815DDF2 /* TvRemote.xcconfig */,
+				9C67D7EE9713E444418FED1A61077958 /* TvRemote-dummy.m */,
+				EF3AE28FF0A98910703AE0C669DF1A37 /* TvRemote-prefix.pch */,
+				E769D5884282B5331195A5058CB74A8C /* TvRemote-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TvRemote";
+			sourceTree = "<group>";
+		};
+		97CDCB5A0A30A5875BD2674D78A4B922 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				D82B81E88C7D98976B018DB4903B5D0C /* GCDAsyncSocket.h */,
+				8F9509718CFCC3D81230AA7CF02478B7 /* GCDAsyncSocket.m */,
+				30CCCF41576100268BFA48C3EED9517C /* GCDAsyncUdpSocket.h */,
+				9235AEFD042C8D96AF4B4AA61E18C420 /* GCDAsyncUdpSocket.m */,
+				57B648335473190C3B0747F8DB761F76 /* Support Files */,
+			);
+			name = CocoaAsyncSocket;
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		991819176034B11A99ECC53C250D06AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97CDCB5A0A30A5875BD2674D78A4B922 /* CocoaAsyncSocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C1EB84439FC63519002A92E7F39C476D /* Pods-TvRemote_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3028C6DAA352316EA97B7C6D8D66035B /* Info.plist */,
+				32ACE62BF48591B1C18CB5F100DA088D /* Pods-TvRemote_Example.modulemap */,
+				CD814660E022326D52EADCE6B8A43631 /* Pods-TvRemote_Example-acknowledgements.markdown */,
+				51B6F2B5D8B8423C667F3D4B26A2718A /* Pods-TvRemote_Example-acknowledgements.plist */,
+				6F69D742B8333719364BC79BBFB719BC /* Pods-TvRemote_Example-dummy.m */,
+				D677EC65F43B12D7C834A9981F36CABB /* Pods-TvRemote_Example-frameworks.sh */,
+				A90594C293590AA6EA54C9775167DE9B /* Pods-TvRemote_Example-resources.sh */,
+				3363554F90FAA3D37490672B774ECC15 /* Pods-TvRemote_Example-umbrella.h */,
+				786CF589F4EC362D575074A58BD90CC0 /* Pods-TvRemote_Example.debug.xcconfig */,
+				60679B50900968A90CF7B5DE5813F794 /* Pods-TvRemote_Example.release.xcconfig */,
+			);
+			name = "Pods-TvRemote_Example";
+			path = "Target Support Files/Pods-TvRemote_Example";
+			sourceTree = "<group>";
+		};
+		E57D8BB42B7367E2EA1AB4BAF61E5D44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91BA6F6CCD385509DC9FF3B1ACE3E309 /* CocoaAsyncSocket.framework */,
+				2B933D4B764323E14C9F306E59BA9E9E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E57FC12AF258EA96DCFCBCECEFCBC3FE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1EB84439FC63519002A92E7F39C476D /* Pods-TvRemote_Example */,
+				5B0F79CE6EB47BC4EB94F1A7F5DE6310 /* Pods-TvRemote_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F664F7E3D24E5B61D5A56F61BF623172 /* TvRemote */ = {
+			isa = PBXGroup;
+			children = (
+				86A051A09A3C40E9D42D604899288B54 /* Support Files */,
+				69071D647AD6B436F01F03BAE91197B2 /* TvRemote */,
+			);
+			name = TvRemote;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		066131069354C4CC132CAB645145E8F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4230DB0D114C94B081018C1AC1E9972 /* CocoaAsyncSocket-umbrella.h in Headers */,
+				A882891E5A89CADF96C2CA79606409CA /* GCDAsyncSocket.h in Headers */,
+				AC7DC2A21843CD99040DCD79FF3BE91B /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F392AA93406E10A549BCFF420807BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D84E09628C89793E6874C5F0BFD70C /* Pods-TvRemote_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910F52BB47054A6F511A8E912B3FE528 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62832D7C9AD6AADD83C49DC89A50277 /* Pods-TvRemote_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC473F330D78335AA3B21CD19CF2C0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7979A443380107F4F56AADAA9526D17B /* RemoteSender.h in Headers */,
+				9CCF64732D08D9E45FB6EC9A72F79A89 /* TvRemote-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		30C37B5D90BABB4CBEB143AB61EC4AA9 /* TvRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC69CD991100B8719ED5A2B8506851C0 /* Build configuration list for PBXNativeTarget "TvRemote" */;
+			buildPhases = (
+				5BAC285507354E6367C4E962B4E8FA6D /* Sources */,
+				98CAB61837EEFF8D6EB561B896AF609D /* Frameworks */,
+				FBC473F330D78335AA3B21CD19CF2C0D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4D7DC0CC321C264B6464720B33E7EB3 /* PBXTargetDependency */,
+			);
+			name = TvRemote;
+			productName = TvRemote;
+			productReference = 2654047E1664EF89525922D2823C8C63 /* TvRemote.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9601C5B2D0F300CF5869E077216643B1 /* Pods-TvRemote_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A53A192E5914EA903B75F60C8FC2BDF /* Build configuration list for PBXNativeTarget "Pods-TvRemote_Tests" */;
+			buildPhases = (
+				C01FFEFC10B90A2DA72DCFE853BDC86A /* Sources */,
+				D3F5E7EAA918C324ECDBC0FB7DEBC0C5 /* Frameworks */,
+				56F392AA93406E10A549BCFF420807BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TvRemote_Tests";
+			productName = "Pods-TvRemote_Tests";
+			productReference = 5DF504EBE1C517795072AE13AAAA7380 /* Pods_TvRemote_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2A03B912F777B2BFB05E7B9E903B15F /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
+			buildPhases = (
+				FD452A203117FF8DFA26B0711D439093 /* Sources */,
+				D1C2C126168B038B9B15BF2A4C96FDDC /* Frameworks */,
+				066131069354C4CC132CAB645145E8F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaAsyncSocket;
+			productName = CocoaAsyncSocket;
+			productReference = 4248F3E76CCDD67C7E7C8C4154E5E2D8 /* CocoaAsyncSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4FA1191D8A328AB41290A8FA1A9C2DD /* Pods-TvRemote_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8F6E7CAC6270CBF01D81825CC1066A9 /* Build configuration list for PBXNativeTarget "Pods-TvRemote_Example" */;
+			buildPhases = (
+				7526ED0F42C696833147D91DDD33E2ED /* Sources */,
+				06DEC3E163C2AEDAF9DCA97757860999 /* Frameworks */,
+				910F52BB47054A6F511A8E912B3FE528 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				708F8751DE473110FBB2AEAD8BB2B99F /* PBXTargetDependency */,
+				511DB44C4C1D6859C5029639B713E53E /* PBXTargetDependency */,
+			);
+			name = "Pods-TvRemote_Example";
+			productName = "Pods-TvRemote_Example";
+			productReference = 6510DDC5057C8A96D6A81BD8B5C7F8B0 /* Pods_TvRemote_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 21EF92700B24CEEE26E039CD979FBE01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */,
+				C4FA1191D8A328AB41290A8FA1A9C2DD /* Pods-TvRemote_Example */,
+				9601C5B2D0F300CF5869E077216643B1 /* Pods-TvRemote_Tests */,
+				30C37B5D90BABB4CBEB143AB61EC4AA9 /* TvRemote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BAC285507354E6367C4E962B4E8FA6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0B6040E111E641D99B20280633C595 /* RemoteSender.m in Sources */,
+				55900B7B2116B6FC270F6FAD164EA775 /* TvRemote-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7526ED0F42C696833147D91DDD33E2ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDABA09DFE2F751F5E63E8C39EF35B87 /* Pods-TvRemote_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01FFEFC10B90A2DA72DCFE853BDC86A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29D3676E6CAE0945AF6751F54E176753 /* Pods-TvRemote_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD452A203117FF8DFA26B0711D439093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */,
+				8480493AEC1C7AF1B5C0E0BF2F70FB44 /* GCDAsyncSocket.m in Sources */,
+				AEE9644DA0EFCF945438E125BA4F0724 /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		511DB44C4C1D6859C5029639B713E53E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TvRemote;
+			target = 30C37B5D90BABB4CBEB143AB61EC4AA9 /* TvRemote */;
+			targetProxy = EA1AF8B7C0DC53D76AEE17E0E87DB3FD /* PBXContainerItemProxy */;
+		};
+		708F8751DE473110FBB2AEAD8BB2B99F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */;
+			targetProxy = 3A5073A109DE6EB2DC8124D6F54C0EF5 /* PBXContainerItemProxy */;
+		};
+		A4D7DC0CC321C264B6464720B33E7EB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */;
+			targetProxy = 4E1511E73B541494A59F0ED96F97619E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0815D43A558A34AD3BCF60A130203035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E498C269637C4B3C0B1E38C3815DDF2 /* TvRemote.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TvRemote/TvRemote-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TvRemote/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TvRemote/TvRemote.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TvRemote;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		09B6E3AB97D21F953EE3230976073D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F07B5AD461A5CBAC30BBC5007A460D4C /* Pods-TvRemote_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TvRemote_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TvRemote_Tests/Pods-TvRemote_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TvRemote_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		226AFD90B926C9EC98F2A4894ED6C093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B681878222CAE5F9097929E1D62083BD /* Pods-TvRemote_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TvRemote_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TvRemote_Tests/Pods-TvRemote_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TvRemote_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		61EBC5930B90CA7C260737B90A8311BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60679B50900968A90CF7B5DE5813F794 /* Pods-TvRemote_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TvRemote_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TvRemote_Example/Pods-TvRemote_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TvRemote_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC264D1C3017FC809F10759937F483AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEE3A3E21C4B978FE0BCEB9613DABBF6 /* CocoaAsyncSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8966D1262202AD51C540DA1946ED7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E498C269637C4B3C0B1E38C3815DDF2 /* TvRemote.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TvRemote/TvRemote-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TvRemote/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TvRemote/TvRemote.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TvRemote;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7BE0125993A31D4308EDE7F482DA8D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 786CF589F4EC362D575074A58BD90CC0 /* Pods-TvRemote_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TvRemote_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TvRemote_Example/Pods-TvRemote_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TvRemote_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD41BF367E9459DA1F0529B4BC31DCB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEE3A3E21C4B978FE0BCEB9613DABBF6 /* CocoaAsyncSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A53A192E5914EA903B75F60C8FC2BDF /* Build configuration list for PBXNativeTarget "Pods-TvRemote_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226AFD90B926C9EC98F2A4894ED6C093 /* Debug */,
+				09B6E3AB97D21F953EE3230976073D58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC69CD991100B8719ED5A2B8506851C0 /* Build configuration list for PBXNativeTarget "TvRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0815D43A558A34AD3BCF60A130203035 /* Debug */,
+				D8966D1262202AD51C540DA1946ED7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2A03B912F777B2BFB05E7B9E903B15F /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD41BF367E9459DA1F0529B4BC31DCB1 /* Debug */,
+				AC264D1C3017FC809F10759937F483AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8F6E7CAC6270CBF01D81825CC1066A9 /* Build configuration list for PBXNativeTarget "Pods-TvRemote_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BE0125993A31D4308EDE7F482DA8D4 /* Debug */,
+				61EBC5930B90CA7C260737B90A8311BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

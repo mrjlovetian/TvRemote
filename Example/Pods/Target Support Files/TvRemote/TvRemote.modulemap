@@ -1,0 +1,6 @@
+framework module TvRemote {
+  umbrella header "TvRemote-umbrella.h"
+
+  export *
+  module * { export * }
+}

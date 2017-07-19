@@ -1,0 +1,19 @@
+PODS:
+  - CocoaAsyncSocket (7.6.1)
+  - TvRemote (0.1.0):
+    - CocoaAsyncSocket (~> 7.6.1)
+
+DEPENDENCIES:
+  - TvRemote (from `../`)
+
+EXTERNAL SOURCES:
+  TvRemote:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 7eadd3f59e1a6c84e2aefc93e9ff7b55156fe174
+  TvRemote: 6cdce787b87a6e330a718203272e0f729baaa59c
+
+PODFILE CHECKSUM: 0cc18b297ab0416f90b4ffa80d712b1ddb1a302f
+
+COCOAPODS: 1.2.1
