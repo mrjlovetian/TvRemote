@@ -21,6 +21,8 @@
 		AC7DC2A21843CD99040DCD79FF3BE91B /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 30CCCF41576100268BFA48C3EED9517C /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEE9644DA0EFCF945438E125BA4F0724 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9235AEFD042C8D96AF4B4AA61E18C420 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		B688B80E8B12B7F6988B29DC592DA94D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A7E85CD06FB5B7EAC4FAD953117F2D2 /* Security.framework */; };
+		C24757D51F1F94CF004FC8D6 /* RemoteReceiver.h in Headers */ = {isa = PBXBuildFile; fileRef = C24757D31F1F94CF004FC8D6 /* RemoteReceiver.h */; };
+		C24757D61F1F94CF004FC8D6 /* RemoteReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = C24757D41F1F94CF004FC8D6 /* RemoteReceiver.m */; };
 		C62832D7C9AD6AADD83C49DC89A50277 /* Pods-TvRemote_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3363554F90FAA3D37490672B774ECC15 /* Pods-TvRemote_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDABA09DFE2F751F5E63E8C39EF35B87 /* Pods-TvRemote_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F69D742B8333719364BC79BBFB719BC /* Pods-TvRemote_Example-dummy.m */; };
 		D01B2EBC1AB52980422F5A831BBCE3F4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18CCAEB371EC97E5B9FA432AB0D5F33 /* CFNetwork.framework */; };
@@ -58,29 +60,29 @@
 		0118F2D3F4C41013AAE91C6F1EAB25AA /* Pods-TvRemote_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TvRemote_Tests-dummy.m"; sourceTree = "<group>"; };
 		024FAD3A9561D2F4CB106D15D9557461 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		2654047E1664EF89525922D2823C8C63 /* TvRemote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TvRemote.framework; path = TvRemote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2654047E1664EF89525922D2823C8C63 /* TvRemote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TvRemote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		281648634F097AF104B214F30D0FBC1B /* Pods-TvRemote_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TvRemote_Tests-resources.sh"; sourceTree = "<group>"; };
 		3028C6DAA352316EA97B7C6D8D66035B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30CCCF41576100268BFA48C3EED9517C /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
 		315400CF8215AD889A138E3AD731BAAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32ACE62BF48591B1C18CB5F100DA088D /* Pods-TvRemote_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TvRemote_Example.modulemap"; sourceTree = "<group>"; };
+		32ACE62BF48591B1C18CB5F100DA088D /* Pods-TvRemote_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TvRemote_Example.modulemap"; sourceTree = "<group>"; };
 		3363554F90FAA3D37490672B774ECC15 /* Pods-TvRemote_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TvRemote_Example-umbrella.h"; sourceTree = "<group>"; };
-		4248F3E76CCDD67C7E7C8C4154E5E2D8 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4248F3E76CCDD67C7E7C8C4154E5E2D8 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51B6F2B5D8B8423C667F3D4B26A2718A /* Pods-TvRemote_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TvRemote_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		53FC440B600715E042B794642CCA2171 /* RemoteSender.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RemoteSender.m; sourceTree = "<group>"; };
-		56387DA55BBF9D5729BB7A1C311C2894 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		56387DA55BBF9D5729BB7A1C311C2894 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
 		5A7E85CD06FB5B7EAC4FAD953117F2D2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		5DF504EBE1C517795072AE13AAAA7380 /* Pods_TvRemote_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TvRemote_Tests.framework; path = "Pods-TvRemote_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF504EBE1C517795072AE13AAAA7380 /* Pods_TvRemote_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TvRemote_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		601E37EDFF15F9E763332F8ED114AF13 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
 		60679B50900968A90CF7B5DE5813F794 /* Pods-TvRemote_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TvRemote_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6510DDC5057C8A96D6A81BD8B5C7F8B0 /* Pods_TvRemote_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TvRemote_Example.framework; path = "Pods-TvRemote_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6510DDC5057C8A96D6A81BD8B5C7F8B0 /* Pods_TvRemote_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TvRemote_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F69D742B8333719364BC79BBFB719BC /* Pods-TvRemote_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TvRemote_Example-dummy.m"; sourceTree = "<group>"; };
 		786CF589F4EC362D575074A58BD90CC0 /* Pods-TvRemote_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TvRemote_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8F9509718CFCC3D81230AA7CF02478B7 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
 		902079056634F5B72C2BF78E287D80BD /* Pods-TvRemote_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TvRemote_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		91BA6F6CCD385509DC9FF3B1ACE3E309 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9235AEFD042C8D96AF4B4AA61E18C420 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93EF360D034B9EE8A7268FA05CA4AA91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C67D7EE9713E444418FED1A61077958 /* TvRemote-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TvRemote-dummy.m"; sourceTree = "<group>"; };
 		9DDE9E14EBA645F4F6694D796C19DEB5 /* Pods-TvRemote_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TvRemote_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -89,9 +91,11 @@
 		A90594C293590AA6EA54C9775167DE9B /* Pods-TvRemote_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TvRemote_Example-resources.sh"; sourceTree = "<group>"; };
 		AEE3A3E21C4B978FE0BCEB9613DABBF6 /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
 		B681878222CAE5F9097929E1D62083BD /* Pods-TvRemote_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TvRemote_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BC1B0DDB829F49068B0C9395FF7611D6 /* Pods-TvRemote_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TvRemote_Tests.modulemap"; sourceTree = "<group>"; };
+		BC1B0DDB829F49068B0C9395FF7611D6 /* Pods-TvRemote_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TvRemote_Tests.modulemap"; sourceTree = "<group>"; };
+		C24757D31F1F94CF004FC8D6 /* RemoteReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteReceiver.h; sourceTree = "<group>"; };
+		C24757D41F1F94CF004FC8D6 /* RemoteReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteReceiver.m; sourceTree = "<group>"; };
 		C47EB90593436DBCC92FCF38FE6FC3B0 /* RemoteSender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RemoteSender.h; sourceTree = "<group>"; };
-		C639272F223432B6B885E259D427AA7D /* TvRemote.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TvRemote.modulemap; sourceTree = "<group>"; };
+		C639272F223432B6B885E259D427AA7D /* TvRemote.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TvRemote.modulemap; sourceTree = "<group>"; };
 		CD814660E022326D52EADCE6B8A43631 /* Pods-TvRemote_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TvRemote_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D677EC65F43B12D7C834A9981F36CABB /* Pods-TvRemote_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TvRemote_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D82B81E88C7D98976B018DB4903B5D0C /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
@@ -177,8 +181,9 @@
 			children = (
 				C47EB90593436DBCC92FCF38FE6FC3B0 /* RemoteSender.h */,
 				53FC440B600715E042B794642CCA2171 /* RemoteSender.m */,
+				C24757D31F1F94CF004FC8D6 /* RemoteReceiver.h */,
+				C24757D41F1F94CF004FC8D6 /* RemoteReceiver.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -219,7 +224,6 @@
 			children = (
 				52F09756DBF9E96327DFB8762344E266 /* Classes */,
 			);
-			name = TvRemote;
 			path = TvRemote;
 			sourceTree = "<group>";
 		};
@@ -258,7 +262,6 @@
 				9235AEFD042C8D96AF4B4AA61E18C420 /* GCDAsyncUdpSocket.m */,
 				57B648335473190C3B0747F8DB761F76 /* Support Files */,
 			);
-			name = CocoaAsyncSocket;
 			path = CocoaAsyncSocket;
 			sourceTree = "<group>";
 		};
@@ -326,6 +329,7 @@
 				E4230DB0D114C94B081018C1AC1E9972 /* CocoaAsyncSocket-umbrella.h in Headers */,
 				A882891E5A89CADF96C2CA79606409CA /* GCDAsyncSocket.h in Headers */,
 				AC7DC2A21843CD99040DCD79FF3BE91B /* GCDAsyncUdpSocket.h in Headers */,
+				C24757D51F1F94CF004FC8D6 /* RemoteReceiver.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +491,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C24757D61F1F94CF004FC8D6 /* RemoteReceiver.m in Sources */,
 				7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */,
 				8480493AEC1C7AF1B5C0E0BF2F70FB44 /* GCDAsyncSocket.m in Sources */,
 				AEE9644DA0EFCF945438E125BA4F0724 /* GCDAsyncUdpSocket.m in Sources */,

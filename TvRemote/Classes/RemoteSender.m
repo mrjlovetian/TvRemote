@@ -2,10 +2,9 @@
 //  RemoteSender.m
 //  RemoteSender
 //
-//  Created by Vivian Aranha on 9/22/15.
-//  Copyright © 2015 Vivian Aranha. All rights reserved.
+//  Created by mrjyuhongjiang on 07/19/2017.
+//  Copyright (c) 2017 mrjyuhongjiang. All rights reserved.
 //
-
 #import "RemoteSender.h"
 #import "GCDAsyncSocket.h"
 
