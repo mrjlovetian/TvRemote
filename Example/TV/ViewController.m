@@ -7,10 +7,12 @@
 //
 
 #import "ViewController.h"
+#import <TvRemote/RemoteReceiver.h>
 
 
+@interface ViewController ()<RemoteReceiverDelegate>
 
-@interface ViewController ()
+@property (nonatomic, strong) RemoteReceiver *remoteReceiver;
 
 @end
 
@@ -18,9 +20,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.remoteReceiver = [[RemoteReceiver alloc] init];
+    self.remoteReceiver.delegate = self;
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+-(void) didReceiveMessage:(NSDictionary *)userInfo{
+    NSLog(@"%@",userInfo);
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4ED03FAA0DA4D91E189DDC0EC43AD185"
-               BuildableName = "Pods_TvRemote_Example.framework"
-               BlueprintName = "Pods-TvRemote_Example"
+               BlueprintIdentifier = "5ECE585A791B6EB7C0223AB947721B4B"
+               BuildableName = "Pods_TV.framework"
+               BlueprintName = "Pods-TV"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4ED03FAA0DA4D91E189DDC0EC43AD185"
-            BuildableName = "Pods_TvRemote_Example.framework"
-            BlueprintName = "Pods-TvRemote_Example"
+            BlueprintIdentifier = "5ECE585A791B6EB7C0223AB947721B4B"
+            BuildableName = "Pods_TV.framework"
+            BlueprintName = "Pods-TV"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

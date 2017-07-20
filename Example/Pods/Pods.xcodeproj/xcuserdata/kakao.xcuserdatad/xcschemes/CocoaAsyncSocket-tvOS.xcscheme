@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4ED03FAA0DA4D91E189DDC0EC43AD185"
-               BuildableName = "Pods_TvRemote_Example.framework"
-               BlueprintName = "Pods-TvRemote_Example"
+               BlueprintIdentifier = "07E3A0698CB7C94827AB22E87BF82AF7"
+               BuildableName = "CocoaAsyncSocket.framework"
+               BlueprintName = "CocoaAsyncSocket-tvOS"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4ED03FAA0DA4D91E189DDC0EC43AD185"
-            BuildableName = "Pods_TvRemote_Example.framework"
-            BlueprintName = "Pods-TvRemote_Example"
+            BlueprintIdentifier = "07E3A0698CB7C94827AB22E87BF82AF7"
+            BuildableName = "CocoaAsyncSocket.framework"
+            BlueprintName = "CocoaAsyncSocket-tvOS"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

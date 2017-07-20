@@ -4,38 +4,60 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CocoaAsyncSocket.xcscheme</key>
+		<key>CocoaAsyncSocket-iOS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>0</integer>
+		</dict>
+		<key>CocoaAsyncSocket-tvOS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TV.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-TvRemote_Example.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
 		<key>Pods-TvRemote_Tests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
-		<key>TvRemote.xcscheme</key>
+		<key>TvRemote-iOS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
+		</dict>
+		<key>TvRemote-tvOS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>30C37B5D90BABB4CBEB143AB61EC4AA9</key>
+		<key>07E3A0698CB7C94827AB22E87BF82AF7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4ED03FAA0DA4D91E189DDC0EC43AD185</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5ECE585A791B6EB7C0223AB947721B4B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6F1895AFA3B61C16054FAF72B436E4B3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -45,12 +67,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AC0D2D2B4EE7C873431AB3502859CA60</key>
+		<key>B5972CB42C666D32D52D92E9D6F5CFE0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C4FA1191D8A328AB41290A8FA1A9C2DD</key>
+		<key>D2942661A9C17922CF386788C3B97674</key>
 		<dict>
 			<key>primary</key>
 			<true/>
