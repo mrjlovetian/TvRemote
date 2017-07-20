@@ -1,6 +1,6 @@
 PODS:
   - CocoaAsyncSocket (7.6.1)
-  - TvRemote (0.1.0):
+  - TvRemote (0.1.1):
     - CocoaAsyncSocket (~> 7.6.1)
 
 DEPENDENCIES:
@@ -12,7 +12,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CocoaAsyncSocket: 7eadd3f59e1a6c84e2aefc93e9ff7b55156fe174
-  TvRemote: 6cdce787b87a6e330a718203272e0f729baaa59c
+  TvRemote: e8068aaacd818b7964f79dd141d953e7215236f8
 
 PODFILE CHECKSUM: 0cc18b297ab0416f90b4ffa80d712b1ddb1a302f
 

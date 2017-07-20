@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "RemoteReceiver.h"
 #import "RemoteSender.h"
 
 FOUNDATION_EXPORT double TvRemoteVersionNumber;

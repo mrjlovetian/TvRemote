@@ -24,6 +24,11 @@
 		617967C941B38F44292EADAE /* Pods_TvRemote_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B74555C1E1C8AF6F7D7DE373 /* Pods_TvRemote_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		C24757DF1F1FAAC5004FC8D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C24757DE1F1FAAC5004FC8D6 /* main.m */; };
+		C24757E21F1FAAC5004FC8D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C24757E11F1FAAC5004FC8D6 /* AppDelegate.m */; };
+		C24757E51F1FAAC5004FC8D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C24757E41F1FAAC5004FC8D6 /* ViewController.m */; };
+		C24757E81F1FAAC5004FC8D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24757E61F1FAAC5004FC8D6 /* Main.storyboard */; };
+		C24757EA1F1FAAC5004FC8D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C24757E91F1FAAC5004FC8D6 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03B5F26C196EF8D77850A4A2 /* TvRemote.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TvRemote.podspec; path = ../TvRemote.podspec; sourceTree = "<group>"; };
+		03B5F26C196EF8D77850A4A2 /* TvRemote.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TvRemote.podspec; path = ../TvRemote.podspec; sourceTree = "<group>"; };
 		06BBE2EAA19B474C0F516F81 /* Pods-TvRemote_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvRemote_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TvRemote_Example/Pods-TvRemote_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0E88822D1CD747E24A611E9F /* Pods-TvRemote_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvRemote_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TvRemote_Example/Pods-TvRemote_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TvRemote_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TvRemote_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,8 +69,17 @@
 		89C0CC3122D4CC2256149323 /* Pods-TvRemote_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvRemote_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TvRemote_Tests/Pods-TvRemote_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		96823A6D83190153FF7D46BC /* Pods-TvRemote_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvRemote_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TvRemote_Tests/Pods-TvRemote_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B74555C1E1C8AF6F7D7DE373 /* Pods_TvRemote_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TvRemote_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5AC14E423166680DB575728 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		DC086C697930298D828566A2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C24757DB1F1FAAC5004FC8D6 /* TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24757DE1F1FAAC5004FC8D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C24757E01F1FAAC5004FC8D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C24757E11F1FAAC5004FC8D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C24757E31F1FAAC5004FC8D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C24757E41F1FAAC5004FC8D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C24757E71F1FAAC5004FC8D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C24757E91F1FAAC5004FC8D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C24757EB1F1FAAC5004FC8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5AC14E423166680DB575728 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DC086C697930298D828566A2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E752ECFC9E898D959D951555 /* Pods_TvRemote_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TvRemote_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -92,6 +106,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C24757D81F1FAAC5004FC8D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -101,6 +122,7 @@
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for TvRemote */,
 				6003F5B5195388D20070C39A /* Tests */,
+				C24757DC1F1FAAC5004FC8D6 /* TV */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				96098381D06C8043AC1AD4FE /* Pods */,
@@ -112,6 +134,7 @@
 			children = (
 				6003F58A195388D20070C39A /* TvRemote_Example.app */,
 				6003F5AE195388D20070C39A /* TvRemote_Tests.xctest */,
+				C24757DB1F1FAAC5004FC8D6 /* TV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -196,6 +219,29 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C24757DC1F1FAAC5004FC8D6 /* TV */ = {
+			isa = PBXGroup;
+			children = (
+				C24757E01F1FAAC5004FC8D6 /* AppDelegate.h */,
+				C24757E11F1FAAC5004FC8D6 /* AppDelegate.m */,
+				C24757E31F1FAAC5004FC8D6 /* ViewController.h */,
+				C24757E41F1FAAC5004FC8D6 /* ViewController.m */,
+				C24757E61F1FAAC5004FC8D6 /* Main.storyboard */,
+				C24757E91F1FAAC5004FC8D6 /* Assets.xcassets */,
+				C24757EB1F1FAAC5004FC8D6 /* Info.plist */,
+				C24757DD1F1FAAC5004FC8D6 /* Supporting Files */,
+			);
+			path = TV;
+			sourceTree = "<group>";
+		};
+		C24757DD1F1FAAC5004FC8D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C24757DE1F1FAAC5004FC8D6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -240,6 +286,23 @@
 			productReference = 6003F5AE195388D20070C39A /* TvRemote_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		C24757DA1F1FAAC5004FC8D6 /* TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C24757EE1F1FAAC5004FC8D6 /* Build configuration list for PBXNativeTarget "TV" */;
+			buildPhases = (
+				C24757D71F1FAAC5004FC8D6 /* Sources */,
+				C24757D81F1FAAC5004FC8D6 /* Frameworks */,
+				C24757D91F1FAAC5004FC8D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TV;
+			productName = TV;
+			productReference = C24757DB1F1FAAC5004FC8D6 /* TV.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -252,6 +315,10 @@
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
+					};
+					C24757DA1F1FAAC5004FC8D6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -270,6 +337,7 @@
 			targets = (
 				6003F589195388D20070C39A /* TvRemote_Example */,
 				6003F5AD195388D20070C39A /* TvRemote_Tests */,
+				C24757DA1F1FAAC5004FC8D6 /* TV */,
 			);
 		};
 /* End PBXProject section */
@@ -291,6 +359,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24757D91F1FAAC5004FC8D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24757EA1F1FAAC5004FC8D6 /* Assets.xcassets in Resources */,
+				C24757E81F1FAAC5004FC8D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +485,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C24757D71F1FAAC5004FC8D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24757E51F1FAAC5004FC8D6 /* ViewController.m in Sources */,
+				C24757E21F1FAAC5004FC8D6 /* AppDelegate.m in Sources */,
+				C24757DF1F1FAAC5004FC8D6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -441,6 +528,14 @@
 				71719F9E1E33DC2100824A3D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C24757E61F1FAAC5004FC8D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C24757E71F1FAAC5004FC8D6 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -593,6 +688,57 @@
 			};
 			name = Release;
 		};
+		C24757EC1F1FAAC5004FC8D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = TV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = MRJ.TV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		C24757ED1F1FAAC5004FC8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = TV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = MRJ.TV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -622,6 +768,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		C24757EE1F1FAAC5004FC8D6 /* Build configuration list for PBXNativeTarget "TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24757EC1F1FAAC5004FC8D6 /* Debug */,
+				C24757ED1F1FAAC5004FC8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
