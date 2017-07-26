@@ -30,6 +30,7 @@
 		C24757E51F1FAAC5004FC8D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C24757E41F1FAAC5004FC8D6 /* ViewController.m */; };
 		C24757E81F1FAAC5004FC8D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24757E61F1FAAC5004FC8D6 /* Main.storyboard */; };
 		C24757EA1F1FAAC5004FC8D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C24757E91F1FAAC5004FC8D6 /* Assets.xcassets */; };
+		C2530B9D1F20428D00B88CE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2530B9C1F20428D00B88CE5 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		C24757E71F1FAAC5004FC8D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C24757E91F1FAAC5004FC8D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C24757EB1F1FAAC5004FC8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2530B9C1F20428D00B88CE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C5AC14E423166680DB575728 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DC086C697930298D828566A2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DDFC26EB2A884E6CB4F84A80 /* Pods_TV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2530B9D1F20428D00B88CE5 /* UIKit.framework in Frameworks */,
 				AB5792F5F4CE3C07CC8363F3 /* Pods_TV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +150,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C2530B9C1F20428D00B88CE5 /* UIKit.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -834,6 +838,7 @@
 				C24757ED1F1FAAC5004FC8D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

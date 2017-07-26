@@ -9,7 +9,7 @@
 #import "RemoteReceiver.h"
 #import "GCDAsyncSocket.h"
 
-#define SERVICE_NAME @"_probonjore._tcp."
+#define SERVICE_NAME @"_mrjnumber1._tcp."
 #define ACK_SERVICE_NAME @"_ack._tcp."
 
 @interface RemoteReceiver() <GCDAsyncSocketDelegate, NSNetServiceDelegate, NSNetServiceBrowserDelegate>

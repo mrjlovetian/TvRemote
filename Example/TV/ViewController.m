@@ -23,6 +23,8 @@
     
     self.remoteReceiver = [[RemoteReceiver alloc] init];
     self.remoteReceiver.delegate = self;
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
