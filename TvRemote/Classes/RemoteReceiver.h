@@ -13,7 +13,7 @@
 
 @optional
 
--(void) didReceiveMessage:(NSDictionary *)userInfo;
+- (void)didReceiveMessage:(NSDictionary *)userInfo;
 
 @end
 

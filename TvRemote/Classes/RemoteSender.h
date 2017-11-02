@@ -10,6 +10,6 @@
 
 @interface RemoteSender : NSObject
 
--(void)sendInfo:(NSDictionary *)infoDict;
+- (void)sendInfo:(NSDictionary *)infoDict;
 
 @end
